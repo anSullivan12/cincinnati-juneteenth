@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Cincinnati Juneteenth Festival
+    %meta{ content: "width=device-width, initial-scale=1.0", name: "viewport" }
+    %meta{ property: "og:site_name", content: "Cincinnati Juneteenth Festival" }
+
+    = stylesheet_link_tag "//cdn.muicss.com/mui-0.10.3/css/mui.min.css", media: "all"
+    = stylesheet_link_tag 'all'
+    = javascript_include_tag 'all'
+
+  %body.mui-container
+    = yield
